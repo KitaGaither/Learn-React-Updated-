@@ -1,18 +1,18 @@
 import React from "react";
+import Navbar from "./components/Navbar";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
-import './index.css';
+import "./index.js";
 
 function App() {
-  return (
-    <div>
-      <h1>Learn React(Updated)</h1>
-      <Header />
-      <MainContent />
-      <Footer />
-    </div>
-  );
+    return (
+       <div>
+        <Navbar />
+        <MainContent />
+        <Footer />
+       </div> 
+        
+    )
 }
 
 export default App;
