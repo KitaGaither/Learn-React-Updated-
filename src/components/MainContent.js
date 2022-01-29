@@ -1,8 +1,8 @@
 import React from "react";
 
 function MainContent() {
-    return (
-        <main>This is my MainContent element</main>
+    return(
+        <h1>This is my MainContent element</h1>
     )
 }
 
